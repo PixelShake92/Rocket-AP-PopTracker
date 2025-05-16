@@ -1,0 +1,449 @@
+[
+    // Tickets
+    {
+        "name": "Pyramid Scheme Ticket A",
+        "access_rules": ["tickets:40,swing,grapple,freeze_ray,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 690,
+                "y": 880
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Ticket B",
+        "access_rules": ["tickets:40,swing,grapple"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 680,
+                "y": 780
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Ticket C",
+        "access_rules": ["tickets:40,swing,grapple,tractor_beam,double_jump,swing"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 660,
+                "y": 295
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Ticket D",
+        "access_rules": ["tickets:40,swing,grapple,pyramid_machine_part:7"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 670,
+                "y": 990
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Ticket E",
+        "access_rules": ["tickets:40,swing,grapple,pyramid_machine_part:7,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 1640,
+                "y": 650
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Ticket F",
+        "access_rules": ["tickets:40,swing,grapple,pyramid_machine_part:7,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 1180,
+                "y": 1005
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Ticket G",
+        "access_rules": ["tickets:40,swing,grapple,pyramid_machine_part:7,glider_bike,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 1620,
+                "y": 260
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Ticket H",
+        "access_rules": ["tickets:40,swing,grapple,pyramid_machine_part:7,freeze_ray,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 2175,
+                "y": 910
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Ticket I Switch Puzzle (Tinker, Jojo, Whoopie, Tinker)",
+        "access_rules": ["tickets:40,swing,grapple,pyramid_machine_part:7,tractor_beam,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 550,
+                "y": 895
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Ticket J",
+        "access_rules": ["tickets:40,swing,grapple,pyramid_machine_part:7,glider_bike"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 1455,
+                "y": 690
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Ticket K",
+        "access_rules": ["tickets:40,swing,grapple,pyramid_machine_part:7,glider_bike,swing,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 1625,
+                "y": 355
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Ticket L (All Tokens)",
+        "access_rules": ["tickets:40,swing,grapple,pyramid_machine_part:7,glider_bike,double_jump,tractor_beam,freeze_ray"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 680,
+                "y": 1200
+            }
+        ]
+    },
+    
+    // Machine Parts
+    {
+        "name": "Pyramid Scheme Machine Part 1",
+        "access_rules": ["tickets:40,swing,grapple"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 600,
+                "y": 425
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Machine Part 2",
+        "access_rules": ["tickets:40,swing,grapple,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 740,
+                "y": 430
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Machine Part 3",
+        "access_rules": ["tickets:40,swing,grapple,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 780,
+                "y": 370
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Machine Part 4",
+        "access_rules": ["tickets:40,swing,grapple,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 760,
+                "y": 600
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Machine Part 5",
+        "access_rules": ["tickets:40,swing,grapple,double_jump,swing"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 555,
+                "y": 630
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Machine Part 6",
+        "access_rules": ["tickets:40,swing,grapple,double_jump,swing"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 560,
+                "y": 630
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Machine Part 7",
+        "access_rules": ["tickets:40,swing,grapple,double_jump,swing"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 555,
+                "y": 600
+            }
+        ]
+    },
+    
+    // Vehicles
+    {
+        "name": "GliderBike Vehicle (After Ticket E)",
+        "access_rules": ["tickets:40,swing,grapple,pyramid_machine_part:7,double_jump,tinker_tokens:750"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Vehicle",
+                "chest_unopened_img": "images/chests/vehicle_uncollected.png",
+                "chest_opened_img": "images/chests/vehicle_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 1630,
+                "y": 705
+            }
+        ]
+    },
+    
+    // Misc Items
+    {
+        "name": "Pyramid Scheme Booster Pack 1",
+        "access_rules": ["tickets:40,swing,grapple,double_jump,swing"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Booster Pack",
+                "chest_unopened_img": "images/chests/booster_pack_uncollected.png",
+                "chest_opened_img": "images/chests/booster_pack_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 550,
+                "y": 275
+            }
+        ]
+    },
+    {
+        "name": "Pyramid Scheme Booster Pack 2",
+        "access_rules": ["tickets:40,swing,grapple,pyramid_machine_part:7,glider_bike,swing"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Booster Pack",
+                "chest_unopened_img": "images/chests/booster_pack_uncollected.png",
+                "chest_opened_img": "images/chests/booster_pack_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "pyramid_scheme",
+                "x": 1550,
+                "y": 880
+            }
+        ]
+    }
+]

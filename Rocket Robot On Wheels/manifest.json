@@ -1,0 +1,16 @@
+﻿{
+    "name": "Rocket Robot On Wheels Archipelago Tracker",
+    "game_name": "Rocket Robot On Wheels",
+    "platform": "Nintendo 64",
+    "package_version": "1.0",
+    "package_uid": "Rocket Robot On Wheels Archipelago",
+    "author": "PixelShake92",
+    "variants": {
+        "itemrando": {
+            "display_name": "Archipelago Randomizer",
+            "flags": [
+                "ap"
+            ]
+        }
+    }
+}

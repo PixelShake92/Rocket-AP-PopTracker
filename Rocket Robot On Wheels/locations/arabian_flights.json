@@ -1,0 +1,429 @@
+[
+    // Tickets
+    {
+        "name": "Arabian Flights Ticket A",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 660,
+                "y": 170
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Ticket B",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 1780,
+                "y": 600
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Ticket C",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer,tractor_beam"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 1880,
+                "y": 1115
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Ticket D (Enter Near Machine Part 6) ",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer,tractor_beam,slam,freeze_ray,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 1200,
+                "y": 2040
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Ticket E",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer,tractor_beam"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 230,
+                "y": 990
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Ticket F",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 1200,
+                "y": 1170
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Ticket G",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 870,
+                "y": 1115
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Ticket H",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer,arabian_machine_part:7"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 1360,
+                "y": 890
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Ticket I",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer,arabian_machine_part:7,swing"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 1145,
+                "y": 1035
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Ticket J (Fly under Red, Purple, Blue, Green Orbs)",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer,arabian_machine_part:7"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 1200,
+                "y": 990
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Ticket K",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 250,
+                "y": 445
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Ticket L (All Tokens)",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer,tractor_beam,slam,swing,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 750,
+                "y": 1760
+            }
+        ]
+    },
+    
+    // Machine Parts
+    {
+        "name": "Arabian Flights Machine Part 1",
+        "access_rules": ["tickets:25,freeze_ray"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 780,
+                "y": 1800
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Machine Part 2",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 1145,
+                "y": 510
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Machine Part 3",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 1890,
+                "y": 1240
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Machine Part 4",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 1055,
+                "y": 115
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Machine Part 5",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 135,
+                "y": 1010
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Machine Part 6",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 1490,
+                "y": 2020
+            }
+        ]
+    },
+    {
+        "name": "Arabian Flights Machine Part 7",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 1270,
+                "y": 85
+            }
+        ]
+    },
+    
+    // Vehicles
+    {
+        "name": "ShagFlyer Vehicle",
+        "access_rules": ["tickets:25,freeze_ray,tinker_tokens:475"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Vehicle",
+                "chest_unopened_img": "images/chests/vehicle_uncollected.png",
+                "chest_opened_img": "images/chests/vehicle_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 740,
+                "y": 1620
+            }
+        ]
+    },
+    
+    // Misc Items
+    {
+        "name": "Arabian Flights Booster Pack",
+        "access_rules": ["tickets:25,freeze_ray,shag_flyer,arabian_machine_part:7"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Booster Pack",
+                "chest_unopened_img": "images/chests/booster_pack_uncollected.png",
+                "chest_opened_img": "images/chests/booster_pack_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "arabian_flights",
+                "x": 1170,
+                "y": 1040
+            }
+        ]
+    }
+]

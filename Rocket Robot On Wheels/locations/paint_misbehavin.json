@@ -1,0 +1,449 @@
+[
+    // Tickets  
+    {
+        "name": "Paint Misbehavin' Ticket A",
+        "access_rules": ["tickets:1,tractor_beam,slam,swing", "tickets:1,tractor_beam,slam,hover_splat"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 2160,
+                "y": 2400
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Ticket B",
+        "access_rules": ["tickets:1,tractor_beam,slam,hover_splat"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 2075,
+                "y": 1320
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Ticket C",
+        "access_rules": ["tickets:1,tractor_beam,slam,hover_splat"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 340,
+                "y": 3415
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Ticket D",
+        "access_rules": ["tickets:1,tractor_beam,slam,hover_splat,swing"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 2040,
+                "y": 1190
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Ticket E",
+        "access_rules": ["tickets:1,tractor_beam,slam,hover_splat", "tickets:1,tractor_beam,slam,swing"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 1250,
+                "y": 1800
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Ticket F",
+        "access_rules": ["tickets:1,tractor_beam,slam,swing"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 1280,
+                "y": 780
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Ticket G",
+        "access_rules": ["tickets:1,tractor_beam,slam"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 900,
+                "y": 835
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Ticket H",
+        "access_rules": ["tickets:1,tractor_beam,slam,paint_machine_part:7,fin_bot", "tickets:1,tractor_beam,slam,paint_machine_part:7,freeze_ray"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 2120,
+                "y": 280
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Ticket I",
+        "access_rules": ["tickets:1,tractor_beam,slam,fin_bot,paint_machine_part:7"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 2160,
+                "y": 270
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Ticket J",
+        "access_rules": ["tickets:1,tractor_beam,slam,fin_bot"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 1540,
+                "y": 320
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Ticket K",
+        "access_rules": ["tickets:1,tractor_beam,slam,paint_machine_part:7,fin_bot", "tickets:1,tractor_beam,slam,paint_machine_part:7,freeze_ray"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 2090,
+                "y": 130
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Ticket L",
+        "access_rules": ["tickets:1,tractor_beam,slam,swing"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Ticket",
+                "chest_unopened_img": "images/chests/ticket_uncollected.png",
+                "chest_opened_img": "images/chests/ticket_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 1260,
+                "y": 2000
+            }
+        ]
+    },
+    
+    // Machine Parts
+    {
+        "name": "Paint Misbehavin' Machine Part 1",
+        "access_rules": ["tickets:1,tractor_beam,slam"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 1790,
+                "y": 2150
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Machine Part 2",
+        "access_rules": ["tickets:1,tractor_beam,slam"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 2235,
+                "y": 1020
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Machine Part 3",
+        "access_rules": ["tickets:1,tractor_beam,slam"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 720,
+                "y": 3120
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Machine Part 4",
+        "access_rules": ["tickets:1,tractor_beam,slam"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 920,
+                "y": 2480
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Machine Part 5",
+        "access_rules": ["tickets:1,tractor_beam,slam"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 620,
+                "y": 780
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Machine Part 6",
+        "access_rules": ["tickets:1,tractor_beam,slam,swing,tractor_beam", "tickets:1,tractor_beam,slam,swing,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 1720,
+                "y": 1060
+            }
+        ]
+    },
+    {
+        "name": "Paint Misbehavin' Machine Part 7",
+        "access_rules": ["tickets:1,tractor_beam,slam,swing,tractor_beam", "tickets:1,tractor_beam,slam,swing,double_jump"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Machine Part",
+                "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+                "chest_opened_img": "images/chests/machine_part_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 2310,
+                "y": 295
+            }
+        ]
+    },
+    
+    // Vehicles
+    {
+        "name": "HoverSplat Vehicle",
+        "access_rules": ["tickets:1,tractor_beam,slam,tinker_tokens:125"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Vehicle",
+                "chest_unopened_img": "images/chests/vehicle_uncollected.png",
+                "chest_opened_img": "images/chests/vehicle_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 1250,
+                "y": 2475
+            }
+        ]
+    },
+    {
+        "name": "FinBot Vehicle",
+        "access_rules": ["tickets:1,tractor_beam,slam,swing,tinker_tokens:175", "tickets:1,tractor_beam,slam,double_jump,tinker_tokens:175", "tickets:1,tractor_beam,slam,freeze_ray,tinker_tokens:175"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Vehicle",
+                "chest_unopened_img": "images/chests/vehicle_uncollected.png",
+                "chest_opened_img": "images/chests/vehicle_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 900,
+                "y": 860
+            }
+        ]
+    },
+    
+    // Misc Items
+    {
+        "name": "Paint Misbehavin' Booster Pack",
+        "access_rules": ["tickets:1,tractor_beam,slam"],
+        "visibility_rules": [],
+        "sections": [
+            {
+                "name": "Booster Pack",
+                "chest_unopened_img": "images/chests/booster_pack_uncollected.png",
+                "chest_opened_img": "images/chests/booster_pack_collected.png",
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "paint_misbehavin",
+                "x": 1800,
+                "y": 1090
+            }
+        ]
+    }
+]
