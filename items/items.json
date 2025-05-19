@@ -1,0 +1,217 @@
+[
+   // Abilities
+    {
+        "name": "Tractor Beam Ability",
+        "type": "toggle",
+        "img": "images/abilities/tractor_beam.png",
+        "codes": "tractor_beam"
+    },
+    {
+        "name": "Swing Ability",
+        "type": "toggle",
+        "img": "images/abilities/swing.png",
+        "codes": "swing"
+    },
+    {
+        "name": "Slam Ability",
+        "type": "toggle",
+        "img": "images/abilities/slam.png",
+        "codes": "slam"
+    },
+    {
+        "name": "Double Jump Ability",
+        "type": "toggle",
+        "img": "images/abilities/double_jump.png",
+        "codes": "double_jump"
+    },
+    {
+        "name": "Freeze Ray Ability",
+        "type": "toggle",
+        "img": "images/abilities/freeze_ray.png",
+        "codes": "freeze_ray"
+    },
+    {
+        "name": "Grapple Ability",
+        "type": "toggle",
+        "img": "images/abilities/grapple.png",
+        "codes": "grapple"
+    },
+    
+    // Vehicles
+    {
+        "name": "Dune Dog Vehicle",
+        "type": "toggle",
+        "img": "images/vehicles/dune_dog.png",
+        "codes": "dune_dog"
+    },
+    {
+        "name": "HoverSplat Vehicle",
+        "type": "toggle",
+        "img": "images/vehicles/hover_splat.png",
+        "codes": "hover_splat"
+    },
+    {
+        "name": "FinBot Vehicle",
+        "type": "toggle",
+        "img": "images/vehicles/fin_bot.png",
+        "codes": "fin_bot"
+    },
+    {
+        "name": "BeamLift Vehicle",
+        "type": "toggle",
+        "img": "images/vehicles/beam_lift.png",
+        "codes": "beam_lift"
+    },
+    {
+        "name": "ShagFlyer Vehicle",
+        "type": "toggle",
+        "img": "images/vehicles/shag_flyer.png",
+        "codes": "shag_flyer"
+    },
+    {
+        "name": "GliderBike Vehicle",
+        "type": "toggle",
+        "img": "images/vehicles/glider_bike.png",
+        "codes": "glider_bike"
+    },
+    {
+        "name": "SpiderRider Vehicle",
+        "type": "toggle",
+        "img": "images/vehicles/spider_rider.png",
+        "codes": "spider_rider"
+    },
+    
+    // Machine Parts
+    {
+        "name": "Clowney Island Machine Part",
+        "type": "consumable",
+        "img": "images/machine_parts/clowney_machine_part.png",
+        "codes": "clowney_machine_part",
+        "max_quantity": 7,
+        "initial_quantity": 0
+    },
+    {
+        "name": "Paint Misbehavin' Machine Part",
+        "type": "consumable",
+        "img": "images/machine_parts/paint_machine_part.png",
+        "codes": "paint_machine_part",
+        "max_quantity": 7,
+        "initial_quantity": 0
+    },
+    {
+        "name": "Mine Blowing Machine Part",
+        "type": "consumable",
+        "img": "images/machine_parts/mine_machine_part.png",
+        "codes": "mine_machine_part",
+        "max_quantity": 7,
+        "initial_quantity": 0
+    },
+    {
+        "name": "Arabian Flights Machine Part",
+        "type": "consumable",
+        "img": "images/machine_parts/arabian_machine_part.png",
+        "codes": "arabian_machine_part",
+        "max_quantity": 7,
+        "initial_quantity": 0
+    },
+    {
+        "name": "Pyramid Scheme Machine Part",
+        "type": "consumable",
+        "img": "images/machine_parts/pyramid_machine_part.png",
+        "codes": "pyramid_machine_part",
+        "max_quantity": 7,
+        "initial_quantity": 0
+    },
+    {
+        "name": "Food Fright Machine Part",
+        "type": "consumable",
+        "img": "images/machine_parts/food_machine_part.png",
+        "codes": "food_machine_part",
+        "max_quantity": 7,
+        "initial_quantity": 0
+    },
+    
+    // Special Items
+    {
+        "name": "Galaxy 2000 Screws",
+        "type": "toggle",
+        "img": "images/misc/galaxy_2000_screws.png",
+        "codes": "galaxy_2000_screws"
+    },
+    
+    // Tickets (shown as collectible)
+    {
+        "name": "Tickets",
+        "type": "consumable",
+        "img": "images/chests/ticket_uncollected.png",
+        "codes": "tickets",
+        "max_quantity": 84,
+        "initial_quantity": 0
+    },
+    
+    // Tinker Tokens (if tracked)
+    {
+        "name": "Tinker Tokens",
+        "type": "consumable",
+        "img": "images/chests/tokens_collected.png",
+        "codes": "tinker_tokens",
+        "max_quantity": 1400,
+        "initial_quantity": 0
+    },
+    
+    // Booster Packs
+    {
+        "name": "Whoopie World Booster Pack 1",
+        "type": "toggle",
+        "img": "images/booster_pack.png",
+        "codes": "whoopie_booster1"
+    },
+    {
+        "name": "Whoopie World Booster Pack 2",
+        "type": "toggle",
+        "img": "images/booster_pack.png",
+        "codes": "whoopie_booster2"
+    },
+    {
+        "name": "Clowney Island Booster Pack",
+        "type": "toggle",
+        "img": "images/booster_pack.png",
+        "codes": "clowney_booster"
+    },
+    {
+        "name": "Paint Misbehavin' Booster Pack",
+        "type": "toggle",
+        "img": "images/booster_pack.png",
+        "codes": "paint_booster"
+    },
+    {
+        "name": "Mine Blowing Booster Pack",
+        "type": "toggle",
+        "img": "images/booster_pack.png",
+        "codes": "mine_booster"
+    },
+    {
+        "name": "Arabian Flights Booster Pack",
+        "type": "toggle",
+        "img": "images/booster_pack.png",
+        "codes": "arabian_booster"
+    },
+    {
+        "name": "Pyramid Scheme Booster Pack 1",
+        "type": "toggle",
+        "img": "images/booster_pack.png",
+        "codes": "pyramid_booster1"
+    },
+    {
+        "name": "Pyramid Scheme Booster Pack 2",
+        "type": "toggle",
+        "img": "images/booster_pack.png",
+        "codes": "pyramid_booster2"
+    },
+    {
+        "name": "Food Fright Booster Pack",
+        "type": "toggle",
+        "img": "images/booster_pack.png",
+        "codes": "food_booster"
+    }
+]

@@ -1,0 +1,40 @@
+{
+  "counter_layouts": {
+    "main": {
+      "content": [
+        {
+          "item": "tickets",
+          "visibility_rules": [],
+          "max_quantity": 84
+        },
+        {
+          "item": "tinker_tokens",
+          "visibility_rules": [],
+          "max_quantity": 9999
+        }
+      ]
+    }
+  },
+  "floating_counters": [
+    {
+      "name": "Tickets",
+      "icon": "images/chests/ticket_uncollected.png",
+      "item": "tickets",
+      "max_quantity": 84,
+      "position": {
+        "x": 10,
+        "y": 10
+      }
+    },
+    {
+      "name": "Tinker Tokens",
+      "icon": "images/chests/tokens_collected.png", 
+      "item": "tinker_tokens",
+      "max_quantity": 9999,
+      "position": {
+        "x": 100,
+        "y": 10
+      }
+    }
+  ]
+}

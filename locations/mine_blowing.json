@@ -1,0 +1,1129 @@
+[
+  {
+    "name": "Mine Blowing",
+    "chest_unopened_img": "images/chests/ticket_uncollected.png",
+    "chest_opened_img": "images/chests/ticket_collected.png",
+    "children": [
+      {
+        "name": "Mine Blowing Ticket A",
+        "access_rules": ["tickets:15,double_jump,tractor_beam"],
+        "sections": [
+          {
+            "name": "Mine Blowing Ticket A",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1520,
+            "y": 1080
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Ticket B",
+        "access_rules": ["tickets:15,double_jump,tractor_beam,beam_lift"],
+        "sections": [
+          {
+            "name": "Mine Blowing Ticket B",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 760,
+            "y": 980
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Ticket C",
+        "access_rules": ["tickets:15,double_jump,tractor_beam,swing"],
+        "sections": [
+          {
+            "name": "Mine Blowing Ticket C",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 845,
+            "y": 285
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Ticket D",
+        "access_rules": ["tickets:15,double_jump,tractor_beam,beam_lift", "tickets:15,double_jump,tractor_beam,grapple"],
+        "sections": [
+          {
+            "name": "Mine Blowing Ticket D",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 950,
+            "y": 1170
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Ticket E",
+        "access_rules": ["tickets:15,double_jump,tractor_beam,swing", "tickets:15,double_jump,tractor_beam,double_jump"],
+        "sections": [
+          {
+            "name": "Mine Blowing Ticket E",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1400,
+            "y": 1430
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Ticket F",
+        "access_rules": ["tickets:15,double_jump,tractor_beam,swing"],
+        "sections": [
+          {
+            "name": "Mine Blowing Ticket F",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 2270,
+            "y": 1920
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Ticket G",
+        "access_rules": ["tickets:15,double_jump,tractor_beam"],
+        "sections": [
+          {
+            "name": "Mine Blowing Ticket G",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 120,
+            "y": 2250
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Ticket H",
+        "access_rules": ["tickets:15,double_jump,mine_machine_part:7,double_jump"],
+        "sections": [
+          {
+            "name": "Mine Blowing Ticket H",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 870,
+            "y": 1120
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Ticket I",
+        "access_rules": ["tickets:15,double_jump,mine_machine_part:7,swing,double_jump"],
+        "sections": [
+          {
+            "name": "Mine Blowing Ticket I",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 880,
+            "y": 1350
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Ticket J",
+        "access_rules": ["tickets:15,double_jump,tractor_beam,swing,beam_lift", "tickets:15,double_jump,tractor_beam,swing,grapple"],
+        "sections": [
+          {
+            "name": "Mine Blowing Ticket J",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1080,
+            "y": 1160
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Ticket K",
+        "access_rules": ["tickets:15,double_jump,tractor_beam"],
+        "sections": [
+          {
+            "name": "Mine Blowing Ticket K",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1170,
+            "y": 1685
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Ticket L",
+        "access_rules": ["tickets:15,double_jump,mine_machine_part:7,swing,tractor_beam,grapple", "tickets:15,double_jump,mine_machine_part:7,swing,tractor_beam,beam_lift"],
+        "sections": [
+          {
+            "name": "Mine Blowing Ticket L",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1180,
+            "y": 2160
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Machine Part 1",
+        "access_rules": ["tickets:15,double_jump,tractor_beam"],
+        "sections": [
+          {
+            "name": "Mine Blowing Machine Part 1",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 985,
+            "y": 945
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Machine Part 2",
+        "access_rules": ["tickets:15,double_jump,tractor_beam"],
+        "sections": [
+          {
+            "name": "Mine Blowing Machine Part 2",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1155,
+            "y": 1575
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Machine Part 3",
+        "access_rules": ["tickets:15,double_jump,tractor_beam,swing", "tickets:15,double_jump,tractor_beam,double_jump"],
+        "sections": [
+          {
+            "name": "Mine Blowing Machine Part 3",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1300,
+            "y": 1390
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Machine Part 4",
+        "access_rules": ["tickets:15,double_jump,tractor_beam,swing", "tickets:15,double_jump,tractor_beam,double_jump"],
+        "sections": [
+          {
+            "name": "Mine Blowing Machine Part 4",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1345,
+            "y": 1530
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Machine Part 5",
+        "access_rules": ["tickets:15,double_jump,tractor_beam,swing"],
+        "sections": [
+          {
+            "name": "Mine Blowing Machine Part 5",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1510,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Machine Part 6",
+        "access_rules": ["tickets:15,double_jump,tractor_beam"],
+        "sections": [
+          {
+            "name": "Machine Part",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mine Blowing Machine Part 6",
+            "x": 1160,
+            "y": 1625
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Machine Part 7",
+        "access_rules": ["tickets:15,double_jump,tractor_beam"],
+        "sections": [
+          {
+            "name": "Machine Part",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mine Blowing Machine Part 7",
+            "x": 1450,
+            "y": 1120
+          }
+        ]
+      },
+      {
+        "name": "BeamLift Vehicle",
+        "access_rules": ["tickets:15,double_jump,tractor_beam,tinker_tokens:325"],
+        "sections": [
+          {
+            "name": "Vehicle",
+            "chest_unopened_img": "images/chests/vehicle_uncollected.png",
+            "chest_opened_img": "images/chests/vehicle_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 870,
+            "y": 940
+          }
+        ]
+      },
+      {
+        "name": "Mine Blowing Booster Pack",
+        "access_rules": ["tickets:15,double_jump,tractor_beam"],
+        "sections": [
+          {
+            "name": "Mine Blowing Booster Pack",
+            "chest_unopened_img": "images/chests/booster_pack_uncollected.png",
+            "chest_opened_img": "images/chests/booster_pack_collected.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1065,
+            "y": 1730
+          }
+        ]
+      },
+      {
+        "name": "First Tunnel Tokens",
+        "access_rules": ["tickets:1"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 31",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 30",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 29",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1160,
+            "y": 2040
+          }
+        ]
+      },
+      {
+        "name": "Mushroom Pit Tokens",
+        "access_rules": ["tickets:15"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 85",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 86",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 24",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 28",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 23",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 25",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 26",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 27",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 22",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 21",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 20",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1050,
+            "y": 1665
+          }
+        ]
+      },
+      {
+        "name": "Mushroom Cave Tokens",
+        "access_rules": ["tickets:1"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 79",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 78",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 77",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 74",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 75",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 76",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 73",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 72",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 71",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 93",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 94",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 95",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1435,
+            "y": 1150
+          }
+        ]
+      },
+      {
+        "name": "Storage Tokens",
+        "access_rules": ["tickets:1"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 16",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 15",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 14",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 17",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 18",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 19",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 13",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 12",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 11",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 680,
+            "y": 940
+          }
+        ]
+      },
+      {
+        "name": "Storage Platform Tokens",
+        "access_rules": ["tickets:1,swing,double_jump"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 81",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1025,
+            "y": 1090
+          }
+        ]
+      },
+      {
+        "name": "Storage Platform Tokens 2",
+        "access_rules": ["tickets:1,double_jump", "tickets:1,tractor_beam"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 80",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 600,
+            "y": 1160
+          }
+        ]
+      },
+      {
+        "name": "Cubby Holes Tokens",
+        "access_rules": ["tickets:1,slam"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 82",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 83",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 84",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 640,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "J Ticket Area Tokens",
+        "access_rules": ["tickets:1,swing,tractor_beam", "tickets:1,swing,grapple"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 97",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 8",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 9",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 10",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1110,
+            "y": 1050
+          }
+        ]
+      },
+      {
+        "name": "Gemstones Tokens",
+        "access_rules": ["tickets:1,slam,swing"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 68",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 69",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 70",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 65",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 66",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 67",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 63",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 64",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 62",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 59",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 60",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 61",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1340,
+            "y": 375
+          }
+        ]
+      },
+      {
+        "name": "After First Bridge Tokens",
+        "access_rules": ["tickets:1,slam"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 92",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1410,
+            "y": 675
+          }
+        ]
+      },
+      {
+        "name": "Blue Gem Room Tokens",
+        "access_rules": ["tickets:1,slam,swing,double_jump"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 99",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1095,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "Switch Area Tokens",
+        "access_rules": ["tickets:1,slam"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 3",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 2",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 1",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 0",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 96",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 7",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 6",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 5",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 4",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1385,
+            "y": 1510
+          }
+        ]
+      },
+      {
+        "name": "Mine Carts Tokens",
+        "access_rules": ["tickets:1,swing"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 50",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 49",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 48",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 46",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 45",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 43",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 42",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 41",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 40",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 39",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 47",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 44",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 89",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 88",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 1575,
+            "y": 1285
+          }
+        ]
+      },
+      {
+        "name": "Mushroom Jump Tokens",
+        "access_rules": ["tickets:1"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 98",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 930,
+            "y": 1690
+          }
+        ]
+      },
+      {
+        "name": "Rolling Rocks Tokens",
+        "access_rules": ["tickets:1"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 38",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 37",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 36",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 35",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 34",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 33",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 32",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 630,
+            "y": 2130
+          }
+        ]
+      },
+      {
+        "name": "Behind First Wall Tokens",
+        "access_rules": ["tickets:1,slam"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 87",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 500,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "Machine Area Tokens",
+        "access_rules": ["tickets:1,machine_part:4,double_jump,swing"],
+        "sections": [
+          {
+            "name": "Mine Blowing Token 58",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 57",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 56",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 55",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 91",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 90",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 54",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 53",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 52",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          },
+          {
+            "name": "Mine Blowing Token 51",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mine_blowing",
+            "x": 890,
+            "y": 1320
+          }
+        ]
+      }
+    ]
+  }
+]
