@@ -1,0 +1,671 @@
+[
+  {
+    "name": "Food Fright",
+    "chest_unopened_img": "images/chests/ticket_uncollected.png",
+    "chest_opened_img": "images/chests/ticket_collected.png",
+    "children": [
+      {
+        "name": "Food Fright Ticket A",
+        "access_rules": ["tickets:40,swing,grapple,swing", "tickets:40,swing,grapple,double_jump"],
+        "sections": [
+          {
+            "name": "Food Fright Ticket A",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 495,
+            "y": 335
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Ticket B",
+        "access_rules": ["tickets:40,swing,grapple,tractor_beam,swing", "tickets:40,swing,grapple,tractor_beam,double_jump"],
+        "sections": [
+          {
+            "name": "Food Fright Ticket B",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 765,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Ticket C",
+        "access_rules": ["tickets:40,swing,grapple,food_machine_part:7"],
+        "sections": [
+          {
+            "name": "Food Fright Ticket C",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 640,
+            "y": 750
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Ticket D",
+        "access_rules": ["tickets:40,swing,grapple,food_machine_part:7,swing,double_jump"],
+        "sections": [
+          {
+            "name": "Food Fright Ticket D",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1990,
+            "y": 805
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Ticket E",
+        "access_rules": ["tickets:40,swing,grapple,food_machine_part:7,swing"],
+        "sections": [
+          {
+            "name": "Food Fright Ticket E",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1320,
+            "y": 620
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Ticket F",
+        "access_rules": ["tickets:40,swing,grapple,food_machine_part:7,swing,tractor_beam"],
+        "sections": [
+          {
+            "name": "Food Fright Ticket F",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1840,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Ticket G",
+        "access_rules": ["tickets:40,swing,grapple,food_machine_part:7,swing,double_jump"],
+        "sections": [
+          {
+            "name": "Food Fright Ticket G",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1590,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Ticket H",
+        "access_rules": ["tickets:40,swing,grapple,food_machine_part:7,swing,double_jump,spider_rider,tractor_beam"],
+        "sections": [
+          {
+            "name": "Food Fright Ticket H",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1505,
+            "y": 2000
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Ticket I",
+        "access_rules": ["tickets:40,swing,grapple,food_machine_part:7,swing,double_jump,spider_rider,tractor_beam"],
+        "sections": [
+          {
+            "name": "Food Fright Ticket I",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1440,
+            "y": 1450
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Ticket J",
+        "access_rules": ["tickets:40,swing,grapple,food_machine_part:7,swing,double_jump,spider_rider,tractor_beam"],
+        "sections": [
+          {
+            "name": "Food Fright Ticket J",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1460,
+            "y": 1520
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Ticket K",
+        "access_rules": ["tickets:40,swing,grapple,food_machine_part:7,swing"],
+        "sections": [
+          {
+            "name": "Food Fright Ticket K",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 640,
+            "y": 720
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Ticket L",
+        "access_rules": ["tickets:40,swing,grapple,food_machine_part:7,double_jump,tractor_beam,spider_rider"],
+        "sections": [
+          {
+            "name": "Food Fright Ticket L",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 640,
+            "y": 1000
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Machine Part 1",
+        "access_rules": ["tickets:40,swing,grapple"],
+        "sections": [
+          {
+            "name": "Food Fright Machine Part 1",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 650,
+            "y": 1075
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Machine Part 2",
+        "access_rules": ["tickets:40,swing,grapple"],
+        "sections": [
+          {
+            "name": "Food Fright Machine Part 2",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 535,
+            "y": 750
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Machine Part 3",
+        "access_rules": ["tickets:40,swing,grapple,swing", "tickets:40,swing,grapple,double_jump"],
+        "sections": [
+          {
+            "name": "Food Fright Machine Part 3",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 280,
+            "y": 750
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Machine Part 4",
+        "access_rules": ["tickets:40,swing,grapple,swing", "tickets:40,swing,grapple,double_jump"],
+        "sections": [
+          {
+            "name": "Food Fright Machine Part 4",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 500,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Machine Part 5",
+        "access_rules": ["tickets:40,swing,grapple,swing", "tickets:40,swing,grapple,double_jump"],
+        "sections": [
+          {
+            "name": "Food Fright Machine Part 5",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1150,
+            "y": 630
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Machine Part 6",
+        "access_rules": ["tickets:40,swing,grapple,swing", "tickets:40,swing,grapple,double_jump"],
+        "sections": [
+          {
+            "name": "Food Fright Machine Part 6",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 965,
+            "y": 340
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Machine Part 7",
+        "access_rules": ["tickets:40,swing,grapple"],
+        "sections": [
+          {
+            "name": "Food Fright Machine Part 7",
+            "chest_unopened_img": "images/chests/machine_part_uncollected.png",
+            "chest_opened_img": "images/chests/machine_part_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 940,
+            "y": 685
+          }
+        ]
+      },
+      {
+        "name": "SpiderRider Vehicle",
+        "access_rules": ["tickets:40,swing,grapple,food_machine_part:7,swing,double_jump,tinker_tokens:850"],
+        "sections": [
+          {
+            "name": "SpiderRider Vehicle",
+            "chest_unopened_img": "images/chests/vehicle_uncollected.png",
+            "chest_opened_img": "images/chests/vehicle_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1420,
+            "y": 1235
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Booster Pack",
+        "access_rules": ["tickets:40,swing,grapple,double_jump"],
+        "sections": [
+          {
+            "name": "Food Fright Booster Pack",
+            "chest_unopened_img": "images/chests/booster_pack_uncollected.png",
+            "chest_opened_img": "images/chests/booster_pack_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 495,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Tokens - First Level Floor",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tongues on Floor by Rivers",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 2
+          },
+          {
+            "name": "Marshmallow Pile in Chocolate River",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 3
+          },
+          {
+            "name": "Chocolate Pile in Milk River",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 3
+          },
+          {
+            "name": "Marshmallow Piles in Marshmallow Area",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 7,
+            "access_rules": ["swing", "double_jump"]
+          },
+          {
+            "name": "Marshmallow Pile in Marshmallow Area",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 1,
+            "access_rules": ["double_jump"]
+          },
+          {
+            "name": "Chocolate Piles in Scale Area",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 7,
+            "access_rules": ["swing", "double_jump"]
+          },
+          {
+            "name": "High Window in Scale Area",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 10,
+            "access_rules": ["grapple,swing"]
+          },
+          {
+            "name": "Chocolate Pile in Scale Area",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 6,
+            "access_rules": ["double_jump"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 295,
+            "y": 780
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Tokens - First Level Webs",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grapple Pad on the Way Up",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 1
+          },
+          {
+            "name": "Web Before Big Hat",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 3,
+            "access_rules": ["grapple,swing"]
+          },
+          {
+            "name": "On the Big Hat",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 10,
+            "access_rules": ["grapple,swing"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 640,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Tokens - Second Level Floor",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "All Around",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 15
+          },
+          {
+            "name": "On D Ticket Spinners",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 20,
+            "access_rules": ["swing,double_jump"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1540,
+            "y": 610
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Tokens - Troll",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Main Area",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 6
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1790,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Tokens - Second Level Upper",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "First Set of Platforms",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 5
+          },
+          {
+            "name": "Unstable Platforms",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 10,
+            "access_rules": ["swing,double_jump"]
+          },
+          {
+            "name": "Near G Ticket",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 5,
+            "access_rules": ["swing,double_jump"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1370,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Tokens - Third Level",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Jump Up Monster Tongues",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 14,
+            "access_rules": ["double_jump"]
+          },
+          {
+            "name": "Tongues Near Red and Green Straws",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 2,
+            "access_rules": ["double_jump"]
+          },
+          {
+            "name": "Bridge to Red Straw",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 3
+          },
+          {
+            "name": "On the Way to Left Bomb Switch",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 4
+          },
+          {
+            "name": "Piston Near Left Bomb Source",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 5,
+            "access_rules": ["swing,double_jump"]
+          },
+          {
+            "name": "Bridge to Right Bomb Switch",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 3,
+            "access_rules": ["double_jump", "spider_rider"]
+          },
+          {
+            "name": "Chocolate Platforms Near Green Straw",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 5,
+            "access_rules": ["double_jump"]
+          },
+          {
+            "name": "In Swamp",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 8,
+            "access_rules": ["spider_rider"]
+          },
+          {
+            "name": "Purple Swamp",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 5,
+            "access_rules": ["spider_rider,swing,double_jump"]
+          },
+          {
+            "name": "Orange Swamp",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 10,
+            "access_rules": ["spider_rider,double_jump"]
+          },
+          {
+            "name": "Monster Tongue",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 5,
+            "access_rules": ["spider_rider,throw"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1300,
+            "y": 1200
+          }
+        ]
+      },
+      {
+        "name": "Food Fright Tokens - Monster",
+        "access_rules": ["spider_rider"],
+        "sections": [
+          {
+            "name": "Main Area",
+            "chest_unopened_img": "images/chests/token_uncollected.png",
+            "chest_opened_img": "images/chests/token_collected.png",
+            "item_count": 22
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "food_fright",
+            "x": 1460,
+            "y": 1560
+          }
+        ]
+      }
+    ]
+  }
+]

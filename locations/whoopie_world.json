@@ -1,0 +1,612 @@
+[
+  {
+    "name": "Whoopie World",
+    "chest_unopened_img": "images/chests/ticket_uncollected.png",
+    "chest_opened_img": "images/chests/ticket_collected.png",
+    "children": [
+      {
+        "name": "Whoopie World Ticket A",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Whoopie World Ticket A",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 1425,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Ticket B",
+        "access_rules": ["slam"],
+        "sections": [
+          {
+            "name": "Whoopie World Ticket B",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 615,
+            "y": 1520
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Ticket C",
+        "access_rules": ["slam,swing"],
+        "sections": [
+          {
+            "name": "Whoopie World Ticket C",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 465,
+            "y": 1410
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Ticket D",
+        "access_rules": ["slam,swing"],
+        "sections": [
+          {
+            "name": "Whoopie World Ticket D",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 880,
+            "y": 1230
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Ticket E",
+        "access_rules": ["tickets:15,double_jump"],
+        "sections": [
+          {
+            "name": "Whoopie World Ticket E",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 220,
+            "y": 1445
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Ticket F",
+        "access_rules": ["tickets:25,freeze_ray,swing"],
+        "sections": [
+          {
+            "name": "Whoopie World Ticket F",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 620,
+            "y": 1410
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Ticket G",
+        "access_rules": ["tickets:25,freeze_ray,tractor_beam"],
+        "sections": [
+          {
+            "name": "Whoopie World Ticket G",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 350,
+            "y": 1480
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Ticket H",
+        "access_rules": ["swing,grapple,double_jump"],
+        "sections": [
+          {
+            "name": "Whoopie World Ticket H",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 1420,
+            "y": 555
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Ticket I",
+        "access_rules": ["swing,grapple,double_jump"],
+        "sections": [
+          {
+            "name": "Whoopie World Ticket I",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 1305,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Ticket J",
+        "access_rules": ["slam,double_jump"],
+        "sections": [
+          {
+            "name": "Whoopie World Ticket J",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 265,
+            "y": 1180
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Ticket K",
+        "access_rules": ["tickets:65,slam,double_jump,freeze_ray,grapple"],
+        "sections": [
+          {
+            "name": "Whoopie World Ticket K",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 1860,
+            "y": 1050
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Ticket L",
+        "access_rules": ["swing,grapple,double_jump,freeze_ray"],
+        "sections": [
+          {
+            "name": "Whoopie World Ticket L",
+            "chest_unopened_img": "images/chests/ticket_uncollected.png",
+            "chest_opened_img": "images/chests/ticket_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 970,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Slam Ability",
+        "access_rules": ["tickets:1,tinker_tokens:80"],
+        "sections": [
+          {
+            "name": "Slam Ability",
+            "chest_unopened_img": "images/abilities/slam_locked.png",
+            "chest_opened_img": "images/chests/ability_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 100,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "Double Jump Ability",
+        "access_rules": ["tickets:1,tinker_tokens:250"],
+        "sections": [
+          {
+            "name": "Double Jump Ability",
+            "chest_unopened_img": "images/abilities/double_jump_locked.png",
+            "chest_opened_img": "images/chests/ability_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 150,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "Freeze Ray Ability",
+        "access_rules": ["tickets:1,tinker_tokens:450"],
+        "sections": [
+          {
+            "name": "Freeze Ray Ability",
+            "chest_unopened_img": "images/abilities/freeze_ray_locked.png",
+            "chest_opened_img": "images/chests/ability_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 200,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "Grapple Ability",
+        "access_rules": ["tickets:1,tinker_tokens:650"],
+        "sections": [
+          {
+            "name": "Grapple Ability",
+            "chest_unopened_img": "images/abilities/grapple_locked.png",
+            "chest_opened_img": "images/chests/ability_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 250,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "Super Grab",
+        "access_rules": ["tractor_beam,tinker_tokens:25"],
+        "sections": [
+          {
+            "name": "Super Grab",
+            "chest_unopened_img": "images/chests/ability_uncollected.png",
+            "chest_opened_img": "images/chests/ability_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 900,
+            "y": 850
+          }
+        ]
+      },
+      {
+        "name": "Super Throw",
+        "access_rules": ["swing,tinker_tokens:25"],
+        "sections": [
+          {
+            "name": "Super Throw",
+            "chest_unopened_img": "images/chests/ability_uncollected.png",
+            "chest_opened_img": "images/chests/ability_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 950,
+            "y": 850
+          }
+        ]
+      },
+      {
+        "name": "Super Swing",
+        "access_rules": ["slam,tinker_tokens:25"],
+        "sections": [
+          {
+            "name": "Super Swing",
+            "chest_unopened_img": "images/chests/ability_uncollected.png",
+            "chest_opened_img": "images/chests/ability_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 1000,
+            "y": 850
+          }
+        ]
+      },
+      {
+        "name": "Super Speed",
+        "access_rules": ["tinker_tokens:25"],
+        "sections": [
+          {
+            "name": "Super Speed",
+            "chest_unopened_img": "images/chests/ability_uncollected.png",
+            "chest_opened_img": "images/chests/ability_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 1050,
+            "y": 850
+          }
+        ]
+      },
+      {
+        "name": "Super Jump",
+        "access_rules": ["tinker_tokens:25"],
+        "sections": [
+          {
+            "name": "Super Jump",
+            "chest_unopened_img": "images/chests/ability_uncollected.png",
+            "chest_opened_img": "images/chests/ability_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 1100,
+            "y": 850
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Booster Pack 1",
+        "access_rules": ["slam,freeze_ray"],
+        "sections": [
+          {
+            "name": "Whoopie World Booster Pack 1",
+            "chest_unopened_img": "images/chests/booster_pack_uncollected.png",
+            "chest_opened_img": "images/chests/booster_pack_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 830,
+            "y": 1605
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Booster Pack 2",
+        "access_rules": ["slam,swing,grapple,double_jump"],
+        "sections": [
+          {
+            "name": "Whoopie World Booster Pack 2",
+            "chest_unopened_img": "images/chests/booster_pack_uncollected.png",
+            "chest_opened_img": "images/chests/booster_pack_collected.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 580,
+            "y": 1780
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Tokens - Entrance Hall",
+        "access_rules": ["tickets:1"],
+        "sections": [
+          {
+            "name": "Entrance Hall Tokens",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 19
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 1110,
+            "y": 230
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Tokens - Lobby",
+        "access_rules": ["tickets:1,slam"],
+        "sections": [
+          {
+            "name": "Lobby Tokens - Ramp to Paint",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 5
+          },
+          {
+            "name": "Lobby Tokens - Floor",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 15
+          },
+          {
+            "name": "Lobby Tokens - Behind Mine Blowing",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 5
+          },
+          {
+            "name": "Lobby Tokens - Around 15 Ticket Switch",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 10
+          },
+          {
+            "name": "Lobby Tokens - Around 25 Ticket Switch",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 10
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 500,
+            "y": 1130
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Tokens - Raccoon Mouth",
+        "access_rules": ["tickets:1,slam,swing"],
+        "sections": [
+          {
+            "name": "Raccoon Mouth Tokens",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 26
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 465,
+            "y": 1365
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Tokens - Mine",
+        "access_rules": ["tickets:15,double_jump"],
+        "sections": [
+          {
+            "name": "Mine Tokens",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 18
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 180,
+            "y": 1430
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Tokens - Cloud Top",
+        "access_rules": ["tickets:25,freeze_ray"],
+        "sections": [
+          {
+            "name": "Cloud Top Tokens - On Clouds",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 26
+          },
+          {
+            "name": "Cloud Top Tokens - Under Cloud",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 3
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 630,
+            "y": 1350
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Tokens - Screw Towers",
+        "access_rules": ["tickets:25,freeze_ray"],
+        "sections": [
+          {
+            "name": "Screw Towers Tokens",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 6
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 370,
+            "y": 1440
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Tokens - Upper Level",
+        "access_rules": ["tickets:40,swing,grapple"],
+        "sections": [
+          {
+            "name": "Upper Level Tokens - Floor Tunnels",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 11
+          },
+          {
+            "name": "Upper Level Tokens - Top",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 21,
+            "access_rules": ["grapple,swing,double_jump"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 1750,
+            "y": 90
+          }
+        ]
+      },
+      {
+        "name": "Whoopie World Tokens - Tumblers",
+        "access_rules": ["tickets:40,swing,grapple,double_jump"],
+        "sections": [
+          {
+            "name": "Tumblers Tokens",
+            "chest_unopened_img": "images/tokens/tokens_uncollected.png",
+            "chest_opened_img": "images/tokens/tokens_collected.png",
+            "item_count": 26
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whoopie_world",
+            "x": 1300,
+            "y": 700
+          }
+        ]
+      }
+    ]
+  }
+]
