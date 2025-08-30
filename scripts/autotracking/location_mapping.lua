@@ -151,23 +151,39 @@ LOCATION_MAPPING = {
     [0x03060005] = {"@Food Fright/Food Fright Machine Part 6/Food Fright Machine Part 6"},
     [0x03060006] = {"@Food Fright/Food Fright Machine Part 7/Food Fright Machine Part 7"},
 	
+	-- Booster Packs
+	[0x05000004] = {"@Whoopie World/Whoopie World Booster Pack 1/Whoopie World Booster Pack 1"},
+	[0x05000003] = {"@Whoopie World/Whoopie World Booster Pack 2/Whoopie World Booster Pack 2"},
+	[0x05000005] = {"@Clowney Island/Clowney Island Booster Pack/Clowney Island Booster Pack"},
+	[0x05000001] = {"@Paint Misbehavin'/Paint Misbehavin' Booster Pack/Paint Misbehavin' Booster Pack"},
+	[0x05000002] = {"@Mine Blowing/Mine Blowing Booster Pack/Mine Blowing Booster Pack"},
+	[0x05000006] = {"@Arabian Flights/Arabian Flights Booster Pack/Arabian Flights Booster Pack"},
+	[0x05000007] = {"@Pyramid Scheme/Pyramid Scheme Booster Pack 1/Pyramid Scheme Booster Pack 1"},
+	[0x05000008] = {"@Pyramid Scheme/Pyramid Scheme Booster Pack 2/Pyramid Scheme Booster Pack 2"},
+	[0x05000000] = {"@Food Fright/Food Fright Booster Pack/Food Fright Booster Pack"},
+	
     -- Jojo's World
     [17235968] = {"@Jojo's World/Defeat Jojo/Defeat Jojo"},
     
 	-- Abilities
-	[67108864] = {"@Abilities/Tractor Beam/Tractor Beam"},
-	[67108865] = {"@Abilities/Swing/Swing"},
-	[67108866] = {"@Abilities/Slam/Slam"},
-	[67108867] = {"@Abilities/Double Jump/Double Jump"},
-	[67108868] = {"@Abilities/Freeze Ray/Freeze Ray"},
-	[67108869] = {"@Abilities/Grapple/Grapple"},
+	[0x04000000] = {"@Abilities/Tractor Beam Ability/Tractor Beam Ability"},
+	[0x04000001] = {"@Abilities/Throw/Throw"},
+	[0x04000002] = {"@Abilities/Swing Ability/Swing Ability"},
+	[0x04000003] = {"@Abilities/Slam/Slam"},
+	[0x04000004] = {"@Abilities/Double Jump Ability/Double Jump Ability"},
+	[0x04000005] = {"@Abilities/Freeze Ray Ability/Freeze Ray Ability"},
+	[0x04000006] = {"@Abilities/Grapple Ability/Grapple Ability"},
     
     -- Super abilities
-    [67109120] = {"@Abilities/Super Grab/Super Grab"},
-    [67109121] = {"@Abilities/Super Throw/Super Throw"},
-    [67109122] = {"@Abilities/Super Swing/Super Swing"},
-    [67109127] = {"@Abilities/Super Speed/Super Speed"},
-    [67109128] = {"@Abilities/Super Jump/Super Jump"},
+    [0x04000100] = {"@Abilities/Super Grab/Super Grab"},
+    [0x04000101] = {"@Abilities/Super Throw/Super Throw"},
+    [0x04000102] = {"@Abilities/Super Swing/Super Swing"},
+    [0x04000107] = {"@Abilities/Super Speed/Super Speed"},
+    [0x04000108] = {"@Abilities/Super Jump/Super Jump"},
+	[0x04000104] = {"@Abilities/Super Double Jump/Super Double Jump"},
+	[0x04000105] = {"@Abilities/Super Freeze/Super Freeze"},
+	[0x04000106] = {"@Abilities/Super Grapple/Super Grapple"},
+
 
 -- Whoopie World Tokens - Entrance Hall
     [0x02000057] = {"@Whoopie World/Whoopie World Tokens - Entrance Hall/Entrance Hall Tokens"},
