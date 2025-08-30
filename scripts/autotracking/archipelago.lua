@@ -78,6 +78,19 @@ local MACHINE_PART_LOOKUP = {
     [0x03060006] = {type = "food_machine_part", name = "Food Fright Machine Part 7"}
 }
 
+-- Booster pack hex-to-code mapping
+local BOOSTER_PACK_LOOKUP = {
+    [0x05000004] = "whoopie_booster1",
+    [0x05000003] = "whoopie_booster2",
+    [0x05000005] = "clowney_booster",
+    [0x05000001] = "paint_booster",
+    [0x05000002] = "mine_booster",
+    [0x05000006] = "arabian_booster",
+    [0x05000007] = "pyramid_booster1",
+    [0x05000008] = "pyramid_booster2",
+    [0x05000000] = "food_booster"
+}
+
 -- Utility function to set any available property on an object
 function setObjectCompleted(obj)
     if not obj then return end
@@ -111,21 +124,25 @@ function onClear(slot_data)
         print("ERROR: Could not find 'tinker_tokens' object!")
     end
     
-    -- Reset abilities if needed
-    local abilities = {"tractor_beam", "swing", "slam", "double_jump", "freeze_ray", "grapple"}
+    -- Reset abilities
+    local abilities = {"tractor_beam", "throw", "swing", "slam", "double_jump", "freeze_ray", "grapple"}
     for _, ability in ipairs(abilities) do
         local obj = Tracker:FindObjectForCode(ability)
         if obj then 
-            -- Check if this is a progressive item or toggle
-            if obj.CurrentStage ~= nil then
-                obj.CurrentStage = 0
-                print("Reset progressive " .. ability)
-            else 
-                obj.Active = false 
-                print("Reset " .. ability)
-            end
+            obj.Active = false 
+            print("Reset " .. ability)
         else
             print("ERROR: Could not find ability object: " .. ability)
+        end
+    end
+    
+    -- Reset super abilities
+    local super_abilities = {"super_grab", "super_throw", "super_swing", "super_slam", "super_double_jump", "super_freeze_ray", "super_grapple"}
+    for _, ability in ipairs(super_abilities) do
+        local obj = Tracker:FindObjectForCode(ability)
+        if obj then 
+            obj.Active = false 
+            print("Reset " .. ability)
         end
     end
     
@@ -134,6 +151,19 @@ function onClear(slot_data)
     for _, vehicle in ipairs(vehicles) do
         local obj = Tracker:FindObjectForCode(vehicle)
         if obj then obj.Active = false end
+    end
+    
+    -- Reset booster packs
+    local boosters = {"whoopie_booster1", "whoopie_booster2", "clowney_booster", "paint_booster", 
+                     "mine_booster", "arabian_booster", "pyramid_booster1", "pyramid_booster2", "food_booster"}
+    for _, booster in ipairs(boosters) do
+        local obj = Tracker:FindObjectForCode(booster)
+        if obj then 
+            obj.Active = false 
+            print("Reset " .. booster)
+        else
+            print("WARNING: Could not find booster pack object: " .. booster)
+        end
     end
     
     -- Reset machine parts
@@ -154,18 +184,26 @@ end
 
 -- Handle item collection
 function onItem(index, item_id, item_name, player_number)
-    print(string.format("Item received: ID=%s, Name=%s", item_id, item_name or "unknown"))
+    print(string.format("=== ITEM RECEIVED ==="))
+    print(string.format("ID: %s", item_id))
+    print(string.format("Name: %s", item_name or "unknown"))
+    print(string.format("Index: %s", index))
+    print(string.format("Player: %s", player_number))
+    print(string.format("==================="))
     
-    -- Ticket collection - ONLY increment ticket counter here when we receive the item!
-    if item_id == 1 or (item_name and (item_name:find("Ticket") or item_name == "Progressive Ticket")) then
-        local obj = Tracker:FindObjectForCode("tickets")
-        if obj then 
-            obj.AcquiredCount = obj.AcquiredCount + 1 
-            print("Ticket count updated to: " .. obj.AcquiredCount)
-        else
-            print("ERROR: 'tickets' object not found!")
+    -- Ticket collection - check that it's actually a ticket
+    if item_id == 1 or (item_name and item_name:find("Ticket") and not item_name:find("Super") and not item_name:find("Ability")) then
+        -- Make sure this is actually a ticket and not an ability with "Ticket" in the log
+        if item_name and not item_name:find("Ability") and not item_name:find("Super") then
+            local obj = Tracker:FindObjectForCode("tickets")
+            if obj then 
+                obj.AcquiredCount = obj.AcquiredCount + 1 
+                print("Ticket count updated to: " .. obj.AcquiredCount)
+            else
+                print("ERROR: 'tickets' object not found!")
+            end
+            return
         end
-        return
     end
     
     -- Token collection
@@ -180,36 +218,7 @@ function onItem(index, item_id, item_name, player_number)
         return
     end
     
-    -- Ability items using a mapping table for cleaner code
-    local ability_map = {
-        [3] = "tractor_beam",
-        [4] = "swing",
-        [5] = "slam",
-        [6] = "double_jump",
-        [7] = "freeze_ray",
-        [8] = "grapple"
-    }
-    
-    -- Check by ID
-    if ability_map[item_id] then
-        local code = ability_map[item_id]
-        local obj = Tracker:FindObjectForCode(code)
-        if obj then 
-            -- Check if this is a progressive item or toggle
-            if obj.CurrentStage ~= nil then
-                obj.CurrentStage = math.min(obj.CurrentStage + 1, obj.NumStages)
-                print("Progressive item advanced: " .. code .. " to stage " .. obj.CurrentStage)
-            else
-                obj.Active = true 
-                print("Ability activated: " .. code)
-            end
-        else
-            print("ERROR: Ability object not found: " .. code)
-        end
-        return
-    end
-    
-    -- Vehicle items
+    -- Vehicle items by ID
     local vehicle_map = {
         [10] = "dune_dog",
         [11] = "hover_splat",
@@ -222,11 +231,14 @@ function onItem(index, item_id, item_name, player_number)
     
     if vehicle_map[item_id] then
         local obj = Tracker:FindObjectForCode(vehicle_map[item_id])
-        if obj then obj.Active = true end
+        if obj then 
+            obj.Active = true
+            print("Vehicle activated: " .. vehicle_map[item_id])
+        end
         return
     end
     
-    -- Machine part items
+    -- Machine part items -
     local part_map = {
         [20] = "clowney_machine_part",
         [21] = "paint_machine_part",
@@ -241,6 +253,59 @@ function onItem(index, item_id, item_name, player_number)
         if obj then 
             obj.AcquiredCount = obj.AcquiredCount + 1
             print("Machine part counter incremented: " .. part_map[item_id] .. " = " .. obj.AcquiredCount)
+        else
+            print("ERROR: Machine part object not found: " .. part_map[item_id])
+        end
+        return
+    end
+    
+    -- Super abilities by ID
+    local super_ability_map = {
+        [10] = "super_grab",
+        [11] = "super_throw", 
+        [12] = "super_swing",
+        [13] = "super_slam",
+        [14] = "super_double_jump",
+        [15] = "super_freeze_ray",
+        [16] = "super_grapple",
+        [17] = "super_speed"  -- Even though we don't track it
+    }
+    
+    if super_ability_map[item_id] then
+        local code = super_ability_map[item_id]
+        if code == "super_speed" then
+            print("Super Speed received - no tracker item")
+            return
+        end
+        
+        local obj = Tracker:FindObjectForCode(code)
+        if obj then 
+            obj.Active = true 
+            print("Super ability activated by ID " .. item_id .. ": " .. code)
+        else
+            print("ERROR: Super ability object not found: " .. code)
+        end
+        return
+    end
+    
+    -- Booster packs
+    local booster_map = {
+        [0x05000004] = "whoopie_booster1",
+        [0x05000003] = "whoopie_booster2",
+        [0x05000005] = "clowney_booster",
+        [0x05000001] = "paint_booster",
+        [0x05000002] = "mine_booster",
+        [0x05000006] = "arabian_booster",
+        [0x05000007] = "pyramid_booster1",
+        [0x05000008] = "pyramid_booster2",
+        [0x05000000] = "food_booster"
+    }
+    
+    if booster_map[item_id] then
+        local obj = Tracker:FindObjectForCode(booster_map[item_id])
+        if obj then 
+            obj.Active = true 
+            print("Booster pack activated: " .. booster_map[item_id])
         end
         return
     end
@@ -257,33 +322,171 @@ function onItem(index, item_id, item_name, player_number)
         return
     end
     
-    -- Check by name as fallback
+    -- Check by name as fallback for abilities
     if item_name then
-        -- For abilities
-        for id, code in pairs(ability_map) do
-            local ability_name = code:gsub("_", " "):gsub("^%l", string.upper)
-            if item_name:find(ability_name) then
-                local obj = Tracker:FindObjectForCode(code)
-                if obj then 
-                    -- Check if this is a progressive item
-                    if obj.CurrentStage ~= nil then
-                        obj.CurrentStage = math.min(obj.CurrentStage + 1, obj.NumStages)
-                        print("Progressive item advanced by name: " .. code .. " to stage " .. obj.CurrentStage)
-                    else
-                        obj.Active = true 
-                        print("Ability activated by name: " .. code)
-                    end
-                end
-                return
+        -- Trim whitespace and normalize the name
+        local normalized_name = item_name:gsub("^%s+", ""):gsub("%s+$", "")
+        print("Checking ability by name: '" .. normalized_name .. "'")
+        
+        -- Direct ability name mapping
+        if normalized_name == "Tractor Beam" or normalized_name == "tractor_beam" or normalized_name == "Tractor Beam Ability" then
+            local obj = Tracker:FindObjectForCode("tractor_beam")
+            if obj then 
+                obj.Active = true 
+                print("ACTIVATED: tractor_beam (from name: " .. normalized_name .. ")")
+            else
+                print("ERROR: Could not find tractor_beam object!")
             end
+            return
+        elseif normalized_name == "Throw" or normalized_name == "throw" or normalized_name == "Throw Ability" then
+            local obj = Tracker:FindObjectForCode("throw")
+            if obj then 
+                obj.Active = true 
+                print("ACTIVATED: throw (from name: " .. normalized_name .. ")")
+            else
+                print("ERROR: Could not find throw object!")
+            end
+            return
+        elseif normalized_name == "Swing" or normalized_name == "swing" or normalized_name == "Swing Ability" then
+            local obj = Tracker:FindObjectForCode("swing")
+            if obj then 
+                obj.Active = true 
+                print("ACTIVATED: swing (from name: " .. normalized_name .. ")")
+            else
+                print("ERROR: Could not find swing object!")
+            end
+            return
+        elseif normalized_name == "Slam" or normalized_name == "slam" or normalized_name == "Slam Ability" then
+            local obj = Tracker:FindObjectForCode("slam")
+            if obj then 
+                obj.Active = true 
+                print("ACTIVATED: slam (from name: " .. normalized_name .. ")")
+            else
+                print("ERROR: Could not find slam object!")
+            end
+            return
+        elseif normalized_name == "Double Jump" or normalized_name == "double_jump" or normalized_name == "Double Jump Ability" then
+            local obj = Tracker:FindObjectForCode("double_jump")
+            if obj then 
+                obj.Active = true 
+                print("ACTIVATED: double_jump (from name: " .. normalized_name .. ")")
+            else
+                print("ERROR: Could not find double_jump object!")
+            end
+            return
+        elseif normalized_name == "Freeze Ray" or normalized_name == "freeze_ray" or normalized_name == "Freeze Ray Ability" then
+            local obj = Tracker:FindObjectForCode("freeze_ray")
+            if obj then 
+                obj.Active = true 
+                print("ACTIVATED: freeze_ray (from name: " .. normalized_name .. ")")
+            else
+                print("ERROR: Could not find freeze_ray object!")
+            end
+            return
+        elseif normalized_name == "Grapple" or normalized_name == "grapple" or normalized_name == "Grapple Ability" then
+            local obj = Tracker:FindObjectForCode("grapple")
+            if obj then 
+                obj.Active = true 
+                print("ACTIVATED: grapple (from name: " .. normalized_name .. ")")
+            else
+                print("ERROR: Could not find grapple object!")
+            end
+            return
         end
         
-        -- For vehicles
+        print("WARNING: Ability name '" .. normalized_name .. "' did not match any known ability")
+        
+        -- Special handling for "Throw Ability" which should activate throw
+        if item_name == "Throw Ability" or item_name == "Throw" then
+            local obj = Tracker:FindObjectForCode("throw")
+            if obj then 
+                obj.Active = true 
+                print("ACTIVATED: throw")
+            else
+                print("ERROR: Could not find throw object!")
+            end
+            return
+        end
+        
+        -- Super abilities by name
+        if item_name == "Super Grab" then
+            local obj = Tracker:FindObjectForCode("super_grab")
+            if obj then 
+                obj.Active = true 
+                print("Super ability activated by name: super_grab")
+            else
+                print("ERROR: Could not find super_grab object!")
+            end
+            return
+        elseif item_name == "Super Throw" then
+            local obj = Tracker:FindObjectForCode("super_throw")
+            if obj then 
+                obj.Active = true 
+                print("Super ability activated by name: super_throw")
+            else
+                print("ERROR: Could not find super_throw object!")
+            end
+            return
+        elseif item_name == "Super Swing" then
+            local obj = Tracker:FindObjectForCode("super_swing")
+            if obj then 
+                obj.Active = true 
+                print("Super ability activated by name: super_swing")
+            else
+                print("ERROR: Could not find super_swing object!")
+            end
+            return
+        elseif item_name == "Super Slam" then
+            local obj = Tracker:FindObjectForCode("super_slam")
+            if obj then 
+                obj.Active = true 
+                print("Super ability activated by name: super_slam")
+            else
+                print("ERROR: Could not find super_slam object!")
+            end
+            return
+        elseif item_name == "Super Jump" or item_name == "Super Double Jump" then
+            local obj = Tracker:FindObjectForCode("super_double_jump")
+            if obj then 
+                obj.Active = true 
+                print("Super ability activated by name: super_double_jump")
+            else
+                print("ERROR: Could not find super_double_jump object!")
+            end
+            return
+        elseif item_name == "Super Freeze" or item_name == "Super Freeze Ray" then
+            local obj = Tracker:FindObjectForCode("super_freeze_ray")
+            if obj then 
+                obj.Active = true 
+                print("Super ability activated by name: super_freeze_ray")
+            else
+                print("ERROR: Could not find super_freeze_ray object!")
+            end
+            return
+        elseif item_name == "Super Grapple" then
+            local obj = Tracker:FindObjectForCode("super_grapple")
+            if obj then 
+                obj.Active = true 
+                print("Super ability activated by name: super_grapple")
+            else
+                print("ERROR: Could not find super_grapple object!")
+            end
+            return
+        elseif item_name == "Super Speed" then
+            -- Super Speed doesn't have a tracker item
+            print("Super Speed received - no tracker item")
+            return
+        end
+        
+        -- For vehicles by name
         for id, code in pairs(vehicle_map) do
             local vehicle_name = code:gsub("_", " "):gsub("^%l", string.upper)
-            if item_name:find(vehicle_name) then
+            if item_name:lower():find(code:gsub("_", " ")) or item_name:lower():find(code) then
                 local obj = Tracker:FindObjectForCode(code)
-                if obj then obj.Active = true end
+                if obj then 
+                    obj.Active = true
+                    print("Vehicle activated by name: " .. code)
+                end
                 return
             end
         end
@@ -291,13 +494,51 @@ function onItem(index, item_id, item_name, player_number)
         -- For machine parts by name
         for id, code in pairs(part_map) do
             local part_name = code:gsub("_", " "):gsub("^%l", string.upper)
-            if item_name:find(part_name) then
-                local obj = Tracker:FindObjectForCode(code)
-                if obj then 
-                    obj.AcquiredCount = obj.AcquiredCount + 1
-                    print("Machine part counter incremented by name: " .. code .. " = " .. obj.AcquiredCount)
+            if item_name:find(part_name) or item_name:find("Machine Part") then
+                -- Try to determine which machine part from the name
+                if (item_name:find("Clowney") or item_name:find("clowney")) and code == "clowney_machine_part" then
+                    local obj = Tracker:FindObjectForCode(code)
+                    if obj then 
+                        obj.AcquiredCount = obj.AcquiredCount + 1
+                        print("Machine part counter incremented by name: " .. code .. " = " .. obj.AcquiredCount)
+                    end
+                    return
+                elseif (item_name:find("Paint") or item_name:find("paint")) and code == "paint_machine_part" then
+                    local obj = Tracker:FindObjectForCode(code)
+                    if obj then 
+                        obj.AcquiredCount = obj.AcquiredCount + 1
+                        print("Machine part counter incremented by name: " .. code .. " = " .. obj.AcquiredCount)
+                    end
+                    return
+                elseif (item_name:find("Mine") or item_name:find("mine")) and code == "mine_machine_part" then
+                    local obj = Tracker:FindObjectForCode(code)
+                    if obj then 
+                        obj.AcquiredCount = obj.AcquiredCount + 1
+                        print("Machine part counter incremented by name: " .. code .. " = " .. obj.AcquiredCount)
+                    end
+                    return
+                elseif (item_name:find("Arabian") or item_name:find("arabian")) and code == "arabian_machine_part" then
+                    local obj = Tracker:FindObjectForCode(code)
+                    if obj then 
+                        obj.AcquiredCount = obj.AcquiredCount + 1
+                        print("Machine part counter incremented by name: " .. code .. " = " .. obj.AcquiredCount)
+                    end
+                    return
+                elseif (item_name:find("Pyramid") or item_name:find("pyramid")) and code == "pyramid_machine_part" then
+                    local obj = Tracker:FindObjectForCode(code)
+                    if obj then 
+                        obj.AcquiredCount = obj.AcquiredCount + 1
+                        print("Machine part counter incremented by name: " .. code .. " = " .. obj.AcquiredCount)
+                    end
+                    return
+                elseif (item_name:find("Food") or item_name:find("food")) and code == "food_machine_part" then
+                    local obj = Tracker:FindObjectForCode(code)
+                    if obj then 
+                        obj.AcquiredCount = obj.AcquiredCount + 1
+                        print("Machine part counter incremented by name: " .. code .. " = " .. obj.AcquiredCount)
+                    end
+                    return
                 end
-                return
             end
         end
     end
@@ -317,7 +558,7 @@ function onLocation(location_id, location_name)
         print("Found machine part location: " .. partName)
         
         -- Try to find the machine part section in the json
-        local partCode = partName  -- This is the exact name from the JSON (e.g., "Clowney Island Machine Part 1")
+        local partCode = partName  -- This is the exact name from the JSON
         local obj = Tracker:FindObjectForCode(partCode)
         if obj then
             print("Found machine part section by name: " .. partCode)
@@ -326,8 +567,6 @@ function onLocation(location_id, location_name)
             print("WARNING: Could not find machine part section: " .. partCode)
         end
         
-        -- We do NOT increment the machine part counter here anymore
-        -- that happens in onItem when the player receives the actual machine part item
     end
     
     -- Try to find codes based on ID ranges
@@ -357,7 +596,7 @@ function onLocation(location_id, location_name)
         end
     end
     
-    -- If LOCATION_MAPPING is available, use it
+    -- If LOCATION_MAPPING is available, use it (this handles booster packs too)
     if LOCATION_MAPPING and LOCATION_MAPPING[location_id] then
         local mappedCodes = LOCATION_MAPPING[location_id]
         if type(mappedCodes) == "string" then
